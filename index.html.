@@ -1,0 +1,30 @@
+```
+<!DOCTYPE html>
+<html>
+<head>
+<title>Saud Weather Server</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body style="background:black;color:white;text-align:center;font-family:sans-serif;">
+
+<h1>⛈ Saud Weather Server</h1>
+
+<h2 id="temp">🌡 الحرارة: 34°C</h2>
+<h2 id="humidity">💧 الرطوبة: 52%</h2>
+<h2 id="wind">🌪 الرياح: 18 km/h</h2>
+
+<button onclick="showAlert()">
+تشغيل تنبيه البرق
+</button>
+
+<script>
+function showAlert() {
+alert("⚡ تم تشغيل تنبيه البرق");
+}
+</script>
+
+</body>
+</html>
+
+```
